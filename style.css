@@ -1,0 +1,53 @@
+body{
+    background: #fff;
+    align-items: center;
+}
+
+.dino{
+    position: absolute;
+    bottom: 0;
+    background-image: url(./img/dino.png);
+    width: 60px;
+    height: 60px;
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(./img/cactus.png);
+}
+
+.background{
+    position: absolute;
+    bottom: 0px;
+    background-image: url(./img/background.png);
+    background-repeat: repeat-x;
+    animation: slideright 700s infinite linear;
+    -webkit-animation: slideright 700s infinite linear;
+    width: 100%;
+    height: 200px;
+}
+
+.gamer-over{
+    text-align: center;
+    color: black;
+    margin: 100px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes slideright {
+    from{
+        background-position:70000;
+    } to {
+        background-position: 0;
+    }
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: black;
+}
